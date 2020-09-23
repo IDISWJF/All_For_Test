@@ -13,9 +13,10 @@
 #include <string.h>
 #include <fstream>
 #define CAN_FRAME_LEN sizeof(struct can_frame)
-
+////////
 class SocketCan {
 	public:
+		//wjf
 		SocketCan();
 		~SocketCan();
 		bool Read(struct can_frame &can_msg);
